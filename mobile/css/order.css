@@ -1,0 +1,211 @@
+
+.part_09{
+    position: relative;
+    padding: .79rem .25rem .22rem;
+    min-height: 4.6rem;
+    background: url(../image/order_bg.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+.part_09 h3{
+    width: 7.195307rem;
+    height: .439687rem;
+    background: url(../image/tit.png)no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+}
+.part_09 .progress_bg{
+    display: flex;
+    position: absolute;
+    top: 2.203123rem;
+    left: .585937rem;
+    width: 6.02062rem;
+    height: .139687rem;
+    background: url(../image/progress.jpg)no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+}
+.part_09 .progress_bg .progress_fill{
+    display: inline-block;
+    width: 6.02062rem;
+    height: .139687rem;
+    background-color: #f05f24;
+}
+.part_09 .gift_area{
+    margin-top: .46875rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    z-index: 2;
+    
+}
+.part_09 .gift_area .gift_item{
+    flex: 1;
+    position: relative;
+}
+.gift_id1 .gift_img{
+    display: block;
+    width: 1.039687rem;
+    height: 1.039687rem;
+    margin: 0 auto;
+    background: url(../image/gift/pro_01.png)no-repeat;
+    background-size: 100% 100%;
+}
+.gift_id2 .gift_img{
+    background: url(../image/gift/pro_02.png)no-repeat;
+    background-size: 100% 100%;
+    width: 1.039687rem;
+    height: 1.039687rem;
+    margin: 0 auto;
+    display: block;
+}
+.gift_id3 .gift_img{
+    width: 1.039687rem;
+    height: 1.039687rem;
+    margin: 0 auto;
+    background: url(../image/gift/pro_03.png)no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+
+.gift_id4 .gift_img{
+    width: 1.039687rem;
+    height: 1.039687rem;
+    margin: 0 auto;
+    background: url(../image/gift/pro_04.png)no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+
+.gift_id5 .gift_img{
+    width: 1.039687rem;
+    height: 1.039687rem;
+    margin: 0 auto;
+    background: url(../image/gift/pro_05.png)no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+.gift_area .gift_item .gift_img::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: .023437rem;
+    width: 1.489686rem;
+    height: 1.099921rem;
+    background: url(../image/gift/deal.png)no-repeat;
+    background-size: 100% 100%;
+    
+}
+.gift_area .gift_item .gift_img::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -0.304687rem;
+    left:.5625rem;
+    width: .289687rem;
+    height: .299765rem;
+    background: url(../image/gift/ling.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.gift_area .gift_item::after{
+    content: "";
+    width: .046875rem;
+    height: .289687rem;
+    background: rgba(201,192,147,.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gift_area .gift_item:last-child::before{
+    content: "";
+    width: .046875rem;
+    height: .789843rem;
+    background: #FFFCE3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.gift_area .gift_item:last-child::after{
+    content: "";
+    width: .046875rem;
+    height: .789843rem;
+    background: #FFFCE3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.gift_area .gift_item::before{
+    content: "";
+    width: .046875rem;
+    height: .789843rem;
+    background: rgba(201,192,147,.5);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.gift_area .gift_item em{
+    display: block;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    font-size: .24rem;
+    color: #333;
+    line-height: .33rem
+}
+.gift_area .gift_item span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: .24rem;
+    color: #d24e3f;
+    font-weight: 700;
+}
+.gift_area .gift_item span::before{
+    content: "";
+    display: inline-block;
+    width: .160078rem;
+    height:.160078rem;
+    background:url(../image/gift/people.png)no-repeat;
+    background-size: 100% 100%;
+}
+.gift_txt{
+    margin-top: .234375rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.gift_txt span{
+    width: 80%;
+    color: #c5bea1;
+    font-size: .2rem;
+    padding: 0 .13rem;
+    display: block;
+}
+.gift_txt .line{
+    display: block;
+    width: 10%;
+    height:.056719rem;
+    border-bottom: solid 2px #e4dfc9;
+}
+.order{
+    display: block;
+    width: 3.149763rem;
+    height: .719765rem;
+    background: url(../image/gift/btn_order.png)no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: .304687rem;
+}
+.desc{
+    font: .24rem;
+    color:#000;
+    font-weight: 700;
+    line-height: .46rem;
+    text-align: center;
+}
+.desc span{
+    color: #ca2121;
+}

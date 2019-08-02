@@ -1,0 +1,92 @@
+.jdsyj{
+    min-height: 9.5rem;
+    padding-bottom: 1rem;
+}
+.jdsyjImgBox{
+    list-style: none;
+    width: 7.1rem;
+    margin: .39rem auto .1rem;
+    overflow: hidden;
+    display: flex;  
+    flex-wrap: wrap;
+}
+.jdsyjImgBox li{
+    width: 3.44rem;
+    height: 2.5rem;
+    margin: 0 0 .2rem .22rem;
+   
+}
+.jdsyjImgBox li:nth-child(2n-1){
+    margin-left:0;
+}
+.jdsyjImgBox li a{
+    display: block;
+    overflow: hidden;
+}
+.jdsyjImgBox li a img{
+height: 2.06rem;
+width: 100%;
+}
+.jdsyjImgBox li a p{
+    font-size: .24rem;
+    color: #666;
+    text-align: center;
+    line-height: .44rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* =====================视听盛宴================ */
+.stsy_box{
+    list-style: none;
+    width: 7.1rem;
+    min-height: 4.72rem;
+    margin: .37rem auto .17rem;
+}
+.stsy_box li:nth-child(2n-1) {
+    margin-left: 0;
+}
+.stsy_box li{
+    width: 3.45rem;
+    height: 2.16rem;
+    margin: 0 0 .2rem .2rem;
+    float: left;
+}
+.stsy_box li a{
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.stsy_box li a img{
+    height: 2.06rem;
+    width: 100%;
+}
+.stsy_box li a i{
+    width: .53rem;
+    height: .67rem;
+    background: url(../image/stsy/i_video.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .74rem;
+    left: 50%;
+    margin-left: -.265rem;
+}
+.stsy_box li a p{
+    max-width: 2.63rem;
+    height: .36rem;
+    padding: 0 .08rem 0 .33rem;
+    background: #000 url(../image/stsy/i_mp3.png) no-repeat .1rem center;
+    background-size: .2rem .15rem;
+    font-size: .24rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: .36rem;
+    position: absolute;
+    bottom: 0;
+    left: .2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

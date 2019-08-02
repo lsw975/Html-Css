@@ -1,0 +1,67 @@
+.ip_game{
+    padding-top: 1.000007rem;
+    padding-bottom: .563437rem;
+}
+.ip_game a {
+    position: relative;
+    display: block;
+    margin: 0 .17rem;
+}
+.ip_game>h2{
+    margin-bottom: .3rem;
+}
+.ip_game>h2>img{
+    width: auto;
+    height: 100%;
+}
+.box_sign{
+    display: flex; 
+    justify-content: center;
+}
+.box_sign .ygw{
+    width: 2.249764rem;
+    height: 2.729998rem;
+    position: relative;
+    display: block;
+    margin: 0 .17rem;
+}
+.box_sign .ygw::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -.975rem;
+    bottom: 0;
+    width: 1.95rem;
+    height: .9rem;
+    background: url(../image/IPxinyou/logo_ygw.png)no-repeat;
+    background-size: 100% 100%;
+}
+.box_sign .ygw img{
+    width: 100%;
+    height: auto;
+    margin: -.1rem 0 0 0;
+}
+.box_sign .bwp{
+    width: 2.499842rem;
+    height: 2.399764rem;
+    margin-top: 0.3rem;
+} 
+
+.box_sign .bwp::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: .95rem;
+    height: 2.4rem;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/logo_bwp_4d5f727.png) no-repeat;
+    background-size: 100% 100%;
+} 
+
+.box_sign .bwp img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2.1rem;
+    height: auto;
+    z-index: 11;
+}

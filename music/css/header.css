@@ -1,0 +1,226 @@
+			.header{
+				/* position: relative; */
+				height: 70px;
+				position: relative;
+				box-sizing: border-box;
+				background: #242424;
+				border-bottom: 1px solid #000000;
+				
+			}
+			.top_nav{
+				width: 1100px;
+				height: 70px;
+				/* margin-left: 200px; */
+				position: absolute;
+				margin-left: 50%;
+				left: -550px;
+			}
+			.head_menu_right{
+				width: 94px;
+				height: 70px;
+				display: inline-block;
+				text-align: center;
+				line-height: 70px;
+				
+			}
+			.top_nav a{
+				font-size: 14px;
+				color: #CCCCCC;
+				text-decoration: none;
+				font-family: arial,helvetica;
+			}
+			
+			.m_logo{
+				width: 177px;
+				height: 69px;
+				float: left;
+				background: url(../img/music.png);
+				background-position: 3px 0px;
+			}
+			.hot{
+				position: absolute;
+				z-index: 9999;
+				width: 30px;
+				height: 15px;
+				background: url(../img/music.png);
+				background-position: -192px 0px;
+				top: 15px;
+				right: 380px;
+			}
+			.head_menu_friend{
+				width: 66px;
+			}
+			.head_menu_store{
+				width: 66px;
+			}
+			.head_menu_musician{
+				width: 80px;
+			}
+			.head_menu_download{
+				width: 108px;
+			}
+			.head_menu_right:hover{
+				background: #000;
+				color: #FFFFFF;
+			}
+			em{
+				font-style: normal;
+			}
+			.user_load{
+				width: 90px;
+				height: 45px;
+				position: relative;
+				left: 100%;
+				margin-top: -38px;
+				margin-left: 35px;
+			}
+			.user{
+				width: 45px;
+				height: 45px;
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: -120px;
+				margin-left: 120px;
+				margin-top: -13px;
+				position: absolute;
+			}
+			.user_icon
+			{
+				width: 45px;
+				height: 45px;
+				float: right;
+				/* border-radius: 50px; */
+				/* background: #FFFFFF; */
+				position: absolute;
+				background-image:url(../img/music.png) ;
+				background-position: -228px -60px;
+				top: 50%;
+				left: 50%;
+				margin-top: -2px;
+				margin-left: -3px;
+			}
+			.user_load .drop_down{
+				position: absolute;
+				font-size: 16px;
+				top: 100%;
+				right: 0px;
+				margin-right: -20px;
+				margin-bottom: 50px;
+				width: 158px;
+				height: 160px;
+				list-style-type:none ;
+				background: #2B2B2B;
+				border-radius: 5px;
+				border-collapse: collapse;
+				display: none;
+				
+			}
+			.drop>.drop_down li:nth-child(1):hover{
+				background: #353535;
+			}
+			.drop>.drop_down li:nth-child(2):hover{
+				background: #353535;
+			}
+			.drop>.drop_down li:nth-child(3):hover {
+				background: #353535;
+			}
+			.drop>.drop_down li:nth-child(4):hover {
+				background: #353535;
+			}
+			.drop>.drop_down li:nth-child(5):hover {
+				background: #353535;
+			}
+			.drop>.drop_down li:nth-child(6):hover {
+				background: #353535;
+			}
+			.user_load:hover .drop_down{
+				display: block;
+			}
+			.drop_down li{
+				color: #BDBDBD;
+				z-index: 999;
+				text-align: center;
+				height: 30px;
+				border-top: 1px solid #000000;
+				border-left: 1px solid #000;
+				border-right: 1px solid #000;
+				
+			}
+			.drop_down li:nth-child(1){
+				border-radius: 5px 5px 0px 0px;
+				
+			}
+			.drop_down li:nth-child(5){
+				border-radius: 0px 0px 5px 5px 	;
+			}
+			.user_load .drop{
+				/* display: none; */
+			}
+			.user_load:hover .drop{
+				display: block;
+				
+			}
+			
+			.search{
+				text-align: left;
+				width: 180px;
+				height: 32px;
+				margin-top: -51px;
+				margin-left: 840px;
+				background-color:#FFFFFF ;
+				border-radius: 30px;
+				position: relative;
+				overflow: hidden;
+				
+			}
+			.search_2
+			{
+				text-align: center;
+				;
+				width: 90px;
+				height: 32px;
+				margin-top: -33px;
+				margin-left: 1035px;
+				background: #242424;
+				position: relative;
+				border-radius: 30px;
+				border: 1px solid #4F4F4F;
+			}
+			.search_2 span{
+				line-height: 30px;
+				color: #BDBDBD;
+			}
+			.search_icon{
+				position: absolute;
+				font-size: 20px;
+				font-weight: bold;
+				margin-top: 50%;
+				top: -85px;
+				left: 8px;
+				color: #CCCCCC;
+			}
+			
+			
+			.search label{
+				width: 130px;
+				float: left;
+				position: absolute;
+				color: #CCCCCC;
+				font-size: 13px;
+				margin-top: 50% ;
+				top: -8px;
+				margin-left: 50%;
+				left: 23px;
+			}
+			.search_text{
+				font-size: 15px;
+				width: 200px;
+				height: 50px;
+				position: absolute;
+				margin-top: 50%;
+				top: -22px;
+				margin-left: 50%;
+				left: 21px;
+				outline: none;
+			}

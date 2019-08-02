@@ -1,0 +1,162 @@
+ .index_banner{
+	 margin: 0 auto;
+	/* position: absolute; */
+	 width: 100%;
+	 height: 336px;
+	 background: blanchedalmond;
+ }
+ .index_banner .banner_img{
+	 width: 730px;
+	 margin: 0 auto;
+	 position: absolute;
+	 left: 50%;
+	 margin-left: -500px;
+ }
+ .banner_download>.six_download:hover{
+	 background-position: 0 -340px;
+    text-decoration: none;
+ }
+ .banner_img>.banner_image{
+	 /* margin: 0 auto; */
+	 
+	 position: absolute;
+	 left: 50%;
+	 left: 10px;
+	 top:0px;
+ }
+.index_banner>.banner_btn{
+	/* position: absolute; */
+	width: 730px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -490px;
+	margin-top: 320px;
+	text-align: center;
+	}
+ .index_banner>.banner_btn>.banner_btn1{
+	 /* display: inline-block; */
+	 background: url(../img/banner_btn.png);
+	 position: absolute;
+	 background-position: 7px -345px;
+	 width: 20px;
+	 height: 20px;
+	 margin-left: 20px; 
+ }
+  .index_banner>.banner_btn>.banner_btn2{
+ 	 /* display: inline-block; */
+ 	 background: url(../img/banner_btn.png);
+ 	 position: absolute;
+ 	 background-position: 7px -345px;
+ 	 width: 20px;
+ 	 height: 20px;
+ 	 margin-left: 5px; 
+ }
+/* .index_banner>.banner_img ul{
+	 	list-style: none;
+		width: 5%;
+		height: 336px;
+		/* animation: banner 8s linear infinite; */
+		/* position: relative; */
+		left: 40%;
+		background: #242424;
+	} */
+.index_banner>.banner_img{
+	margin:0px auto;
+	/* overflow: hidden; */
+}
+	 	
+
+/* .index_banner>.banner_img ul>li 
+{
+		position: absolute;
+	 	float: left;
+		top: 0px;
+		margin-left: 0px;
+	 }
+.index_banner>.banner_img ul>li:nth-child(2){
+		margin-left: 100%;
+	 }
+.index_banner>.banner_img ul>li:nth-child(3){
+	 		margin-left: 300%;
+	 	 }
+.index_banner>.banner_img ul>li:nth-child(4){
+		 		margin-left: 400%;
+		 	 }
+.index_banner>.banner_img ul>li:nth-child(5){
+			 		margin-left: 730px;
+			 	 }
+ @keyframes banner{
+ 	 	0%,20% {
+ 	 		margin-left: 0px;
+ 	 	}
+ 	 	20%,40%{
+ 	 		margin-left: -100%;
+ 	 	}
+ 	 	40%,60% {
+ 	 		margin-left: -200%;
+ 	 	}
+ 	 	60%,80% {
+ 	 		margin-left:-300%;
+ 	 	}
+		100%{
+			margin-left: -400%;
+		}
+ 	 	
+ 	 	/*24(停留3次) 3次
+ 	 	  72+  28% 9
+ 	 	 * */
+   .index_banner>.banner_btn>.banner_btn3{
+ 	 /* display: inline-block; */
+ 	 background: url(../img/banner_btn.png);
+ 	 position: absolute;
+ 	 background-position: 7px -345px;
+ 	 width: 20px;
+ 	 height: 20px;
+ 	 margin-left: -10px; 
+ }
+   .index_banner>.banner_btn>.banner_btn4{
+ 	 /* display: inline-block; */
+ 	 background: url(../img/banner_btn.png);
+ 	 position: absolute;
+ 	 background-position: 7px -345px;
+ 	 width: 20px;
+ 	 height: 20px;
+ 	 margin-left: -25px; 
+
+ }
+
+.index_banner>.banner_btn>.banner_btn5{
+ 	 display: inline-block; 
+ 	 background: url(../img/banner_btn.png);
+ 	 position: absolute;
+ 	 background-position: 7px -345px;
+ 	 width: 20px;
+ 	 height: 20px;
+ 	 margin-left: -40px; 
+ }
+ .index_banner>.banner_btn>a:hover{
+	 background: url(../img/banner_btn.png);
+	 background-position: 26px -345px;
+ }
+
+ .index_banner .banner_download{
+		position: absolute;
+		width:254px;
+		height: 336px;
+		left: 100%;
+		margin-left: 10px;
+		/* margin-right:7px ; */
+		background: url(../img/pc_download.png);
+ }
+.banner_download .six_download{
+	 width: 215px;
+	 height: 56px;
+	 /* background: #9FE56B; */
+	 position: absolute;
+	 left: 7%;
+	 margin-left: 2px;
+	 top: 63%;
+	
+ }
+ 

@@ -1,0 +1,59 @@
+.outDivCurrency{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.outDivCurrency .title{
+    height: .47rem;
+    text-align: center;
+    display: block;
+}
+.outDivCurrency .title>img{
+    width: auto;
+    height: 100%;
+}
+
+
+.moreBtn{
+    min-width: 1.08rem;
+    height: .44rem;
+    font-size: .24rem;
+    color: #666;
+    text-align: center;
+    line-height: .44rem;
+    padding: 0 2.84rem 0 3.18rem;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+.moreBtn::before{
+    content: '';
+    width: 2.73rem;
+    height: 1px;
+    left: .23rem;
+    border-top: 1px #ccc solid;
+    position: absolute;
+    top: 50%;
+}
+.moreBtn::after{
+    right: .21rem;
+    content: '';
+    width: 2.73rem;
+    height: 1px;
+    border-top: 1px #ccc solid;
+    position: absolute;
+    top: 50%;
+}
+
+.moreBtn i{
+    width: .24rem;
+    height: .24rem;
+    background: url(../image/syj/i_more3.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 3.14rem;
+    margin-top: -.12rem;
+}

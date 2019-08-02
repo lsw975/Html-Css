@@ -1,0 +1,118 @@
+.yxbg{
+    width: 7.5rem;
+    height: 2.11rem;
+    background: url(../image/yxgl/bg.jpg)no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1.49rem;
+    left: 0;
+}
+.yxgl .szrj{
+    width: 7.1rem;
+    margin: .37rem auto .52rem;
+    position: relative;
+    overflow: hidden;
+}
+.yxgl .szrj a{
+    width: 2.23rem;
+    height: 1.6rem;
+    margin-left: .2rem;
+    float: left;
+}
+.yxgl .szrj a:first-child{
+    margin-left: 0;
+}
+.yxgl .szrj a img{
+    height: 1.25rem;
+    width: 100%;
+}
+.yxgl .szrj a p{
+    width: 100%;
+    height: .35rem;
+    font-size: .24rem;
+    color: #666;
+    text-align: center;
+    line-height: .35rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #fff;
+    display: block;
+}
+.yxgl-nav{
+    width: 7.06rem;
+    height: .64rem;
+    font-size: .24rem;
+    display: flex;
+    margin-left: .245rem;
+    position: relative;
+    justify-content: space-between;
+}
+
+.yxgl-nav a{
+    width: 1.37rem;
+    height: .6rem;
+    font-size: .24rem;
+    color: #fff;
+    text-align: center;
+    line-height: .6rem;
+    margin-left: .04rem;
+    padding-bottom: .04rem;
+    position: relative;
+}
+.yxgl-nav .on{
+    color: #74bd95;
+    background: #fff url(https://yys.res.netease.com/m/gw/20180918135651/img/icon/i_on_32ec342.png) no-repeat center .47rem;
+    background-size: .95rem .04rem;
+}
+.yxgl-nav a::after{
+    content: '';
+    width: 1px;
+    height: .14rem;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -.07rem;
+}
+.yxglBox{
+    width: 7.1rem;
+    margin: 0 auto 1rem;
+    border: .04rem #81c0a1 solid;
+    border-top: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.yxglBox .yxgl3D{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+}
+.yxglBox .yxgl3D .newUl{
+    list-style: none;
+    width: 7.007807rem;
+    height: 3.67rem;
+    padding-top: .05rem;
+
+}
+.yxglBox .yxgl3D .newUl li{
+    width: 6.6rem;
+    margin: .38rem auto 0;
+    font-size: .24rem;
+}
+.yxglBox .yxgl3D .newUl li a p{
+    font-size: .24rem;
+    color: #000;
+    line-height: .39rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.yxglBox .yxgl3D .newUl li a span{
+    color: #ccc;
+    line-height: .33rem;
+}

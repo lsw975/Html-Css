@@ -1,0 +1,152 @@
+.sj-nav{
+    width: 7.153354rem;
+    height: .653437rem;
+    border: 2px #c2a060 solid;
+    margin: .34rem auto .35rem;
+    padding: .02rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{text-decoration: none;}
+.sj-nav a{
+    width: 2.32992rem;
+    height: .679687rem;
+    font-size: .28rem;
+    text-align: center;
+    line-height: .632812rem;
+    color: #000;
+    position: relative;
+}
+.sj-nav .on{
+    color: #fff;
+    background: #c2a060;
+}
+.sj-nav a:nth-child(2)::after{
+    content: '';
+    width: .046875rem;
+    height: .22rem;
+    background: #c2a060;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -.11rem;
+}
+.ssBox{
+    font-size: .24rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 7.1rem;
+    margin: .35rem auto 0;
+}
+.ssBox .sstit{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .39rem;
+}
+.ssBox .sstit a{
+    position: relative;
+    min-width: .55rem;
+    height: .31rem;
+    font-size: .28rem;
+    color: #000;
+    padding: .03rem 0 .06rem;
+    line-height: .31rem;
+}
+.ssBox .sstit .on{
+    color: #c2a060;
+    font-weight: 700;
+}
+.ssBox .sstit .on::before{
+    content: "";
+    width: .914062rem;
+    top: .375rem;
+    left: -0.164062rem;
+    height: .046875rem;
+    position: absolute;
+    display: block;
+    background: #c2a060;
+  
+}
+.ssImgBox3D{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.ssImgBox3D .ssImgBox{
+    margin: 0rem;
+    min-height: 1.83rem;
+    width: 7.078119rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    position: relative;
+    flex-shrink: 0;
+}
+.ssImgBox3D .ssImgBox a{
+    color: #000;
+    width: 1.21rem;
+    height: 1.83rem;
+    margin-left: .23rem;
+    position: relative;
+    font-size: .24rem;
+}
+.ssImgBox3D .ssImgBox a:nth-child(5n-4){
+    margin-left: 0;
+}
+.ssImgBox3D .ssImgBox a img{
+    width: 1.15rem;
+    height: 1.15rem;
+    border: .03rem #ecdbbd solid;
+    display: block;
+}
+.ssImgBox3D .ssImgBox a p{
+    width: 100%;
+    font-size: .28rem;
+    color: #333;
+    text-align: center;
+    line-height: .54rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.ssImgBox3D .ssImgBox a .shishen-new{
+    width: .51rem;
+    height: .6rem;
+    background: url(../image/pinganshijie/i_new.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -.1rem;
+    top: -.1rem;
+}
+.linghungouyu{
+    width: 7.1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    height: .68rem;
+    margin-bottom: .8rem;
+    position: relative;
+}
+.linghungouyu span:first-child{
+    background: url(../image/pinganshijie/i_gy_on.png);
+    background-repeat: no-repeat;
+    background-size: .22rem .29rem;
+    background-color: transparent;
+}
+.linghungouyu span{
+    width: .22rem;
+    height: .29rem;
+    background: url(../image/pinganshijie/i_gy.png);
+    background-repeat: no-repeat;
+    background-size: .22rem .29rem;
+    background-color: transparent;
+    margin: 0 .03rem;
+    display: block;
+}

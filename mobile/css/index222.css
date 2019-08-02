@@ -1,0 +1,190 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.app{
+    font-size: 266.667%;
+}
+.container{
+    width: 100%;
+    min-height: 12rem;
+    background-color: #f2f2f2;
+    font-family:"Microsoft YaHei";
+    font-size: .24rem;
+    padding-top: 1.02rem;
+    margin: 0 auto;
+}
+.bar{
+    width: 100%;
+    display: flex;
+    height: 1.02rem;
+    background: url(../image/tophead/top_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+.bar img{
+    width: .8rem;
+    height: .8rem;
+    border: 2px #fff solid;
+    border-radius: .18rem;
+    box-sizing: border-box;
+    margin: .11rem .16rem .11rem .3rem;
+    float: left;
+}
+.bar .signs{
+   
+    display: flex;
+    width: 2.343748rem;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .3rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: .47rem;   
+}
+.bar .signs p{
+    font-size: .24rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: .33rem;
+}
+.bar .Down{
+    width: 1.41rem;
+    height: .6rem;
+    background: url(../image/tophead/down.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .21rem;
+    right: .9rem;
+}
+.bar .searchBtn{
+    width: .6rem;
+    height: .6rem;
+    background: url(../image/tophead/i_search.png) no-repeat center center;
+    background-size: .43rem .45rem;
+    position: absolute;
+    top: .21rem;
+    right: .12rem;
+}
+.searchInput{
+    width: 100%;
+    height: 1.02rem;
+    background: url(../image/tophead/top_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.searchInput .sInput{
+    width: 5.3rem;
+    height: .38rem;
+    border-radius: .05rem;
+    background: #6b0404;
+    padding: .1rem .15rem .1rem .85rem;
+    position: absolute;
+    top: .22rem;
+    left: .2rem;
+}
+.searchInput .searchBtn2{
+    width: .38rem;
+    height: .39rem;
+    background: url(../image/tophead/i_search.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .1rem;
+    left: .15rem;
+}
+.bar .searchInput .sInput input{
+    width: 5.3rem;
+    height: .38rem;
+    color: #fff;
+    font-size: .24rem;
+    background: #6b0404;
+    line-height: .38rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+}
+.bar .searchInput .cancel {
+    text-decoration: none;
+    width: .92rem;
+    height: .57rem;
+    font-size: .32rem;
+    font-weight: 700;
+    font-family: "\5B8B\4F53","宋体";
+    color: #fff;
+    text-align: center;
+    line-height: .57rem;
+    position: absolute;
+    top: .22rem;
+    right: .08rem;
+}
+.lunboBox{
+    height: 5rem;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    overflow: initial;
+}
+.lunbo-wrapper{
+    width: 7.5rem;
+    height: 5rem;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+.lunboUl{
+    /* transform: translate3d(-1280px, 0px, 0px);
+    transition-duration: 0ms; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    animation: banner 15s linear infinite;
+    /* transition-property: transform; */
+    box-sizing: content-box;
+    list-style: none;
+}
+.lunboUl li{
+    flex-shrink: 0;
+    width: 100%;
+    height: 5rem;
+}
+.lunboUl li img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.downGame{
+    width: 2.55rem;
+    height: .85rem;
+    background: url(../image/down2.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -.5rem;
+    display: block;
+    z-index: 2;
+}
+@keyframes banner{
+    0%,27% {
+        margin-left: 0px;
+    }
+    33%,60%{
+        margin-left: -100%;
+    }
+    66%,93% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left:-300%;
+    }
+}
